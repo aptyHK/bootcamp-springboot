@@ -1,0 +1,12 @@
+server.port: 8085
+
+api:
+  finnhub:
+    domain: 'finnhub.io'
+    basepath: '/api/v1'
+    endpoints:
+      stock: 
+        profile2: '/stock/profile2'
+      quote: '/quote'
+      exchange: '/exchange'
+    token: 'ck4fiehr01qus81pv330ck4fiehr01qus81pv33g'
